@@ -1,0 +1,33 @@
+body{
+   font-family: Roboto, "Open Sans", sans-serif; 
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
