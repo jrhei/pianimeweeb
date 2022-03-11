@@ -18,7 +18,8 @@ body{
     flex-direction: column;
     background-color: rgba(0,0,0,0.9);
     padding: 0px 150px;
-    
+    margin-bottom: 0px;
+    flex: 1 1 0;
 
 }
 .header{
@@ -56,7 +57,7 @@ a{
     flex-shrink: 0;
     flex: 1 1 0px;
 }
-img{
+.fp-img{
     max-width: 600px;
     max-height: 300px;
 }
@@ -84,4 +85,43 @@ button{
     margin: 0px;
     gap: 0px;
     padding: 5px 30px;
+}
+.informations{
+    max-width: 210px;
+    gap: 50px;
+}
+.second-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 0px;
+    flex: 1 1 0;
+}
+.info-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid gray;
+    border-radius: 25px;
+}
+.source-info,
+.info-text{
+    color: black;
+}
+.source-info{
+    font-size: 10px;
+}
+.info-text{
+    font-size: 18px;
+}
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
 }
