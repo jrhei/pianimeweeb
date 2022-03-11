@@ -11,15 +11,15 @@ body{
 }
 
 .second-section,
-.third-section,
-.fourth-section{
-    padding: 100px 220px;
+.third-section{
+    padding: 100px 400px;
 }
 .first-section{
     display: flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.9);
     padding: 0px 250px;
+    padding-bottom: 100px;
     margin-bottom: 0px;
     flex: 1 1 0px;
 
@@ -29,10 +29,8 @@ body{
     justify-content: space-between;
     color: white;
     align-items: center;
-    top: 0;
-    left: 0;
-    right: 0;
     font-size: 18px;
+    height: 72px;
     
 }
 ul{
@@ -82,11 +80,12 @@ a{
 }
 button{
     background-color: #3882F6;
-    color: white;;
+    color: white;
     border-radius: 25px;
     margin: 0px;
     gap: 0px;
-    padding: 5px 30px;
+    padding: 10px 35px;
+    font-weight: bold;
 }
 .informations{
     max-width: 210px;
@@ -121,7 +120,8 @@ button{
 .source-info{
     font-size: 10px;
 }
-.info-text{
+.info-text,
+.sign{
     font-size: 18px;
 }
 .info-header{
@@ -132,7 +132,7 @@ button{
 .third-section{
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    flex: 1 1 0px;
     background-color: rgba(0,0,0,0.9);
     color: white;
     font-size: 36px;
@@ -141,8 +141,54 @@ button{
 .quote{
     font-style: italic;
 }
-.author{
+.author,
+.call{
     text-align: end;
     font-weight: bold;
+    
+}
+.author{
     color: gray;
+}
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    padding: 0px 0px;
+    padding-top: 100px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    gap: 50px
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #3882F6;
+    margin: 0px 250px;
+    padding: 50px;
+    border-radius: 25px;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(158, 153, 153, 0.9);
+    padding: 35px;
+    font-size: 18px;
+}
+.call,
+.sign{
+    color: white;
+}
+.call{
+    font-size: 36px;
+}
+.second-sign-up{
+    border: 2px solid white;
+    
+}
+.first-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
